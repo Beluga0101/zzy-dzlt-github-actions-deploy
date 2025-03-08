@@ -277,12 +277,12 @@
 
             /* Gitalk 评论区配置 */
             var gitalk = new Gitalk({
-                clientID: 'be96a41462c84525e077',
-                clientSecret: '5be136bc48441c539d9203aa5c61dbadb42d3309',
-                repo: 'zzy-dzlt-gitalk',
+                clientID: 'Ov23li8ScuaPEkUDtj9h',
+                clientSecret: '6600e0f815ab5290797f490b589b727f8bd5cb85',
+                repo: 'zzy-dzlt-github-actions-deploy',
                 owner: 'Beluga0101',
                 admin: ['Beluga0101'],
-                id: /Beluga0101/zzy-dzlt-gitalk/issues/1,      // Ensure uniqueness and length less than 50
+                id: location.pathname,      // Ensure uniqueness and length less than 50
                 distractionFreeMode: false  // Facebook-like distraction free mode
             });
             gitalk.render('gitalk-container');
